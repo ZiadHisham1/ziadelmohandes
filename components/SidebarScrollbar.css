@@ -1,0 +1,32 @@
+/* components/SidebarScrollbar.css */
+.sidebar-scroll-hide {
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.sidebar-scroll-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Optional: Custom scrollbar design if you want to keep it */
+.sidebar-scroll-custom {
+  overflow-y: auto;
+}
+
+.sidebar-scroll-custom::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-scroll-custom::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-scroll-custom::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.sidebar-scroll-custom::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
