@@ -14,14 +14,6 @@ export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
-      role: "CTO at TechCorp",
-      content: "The dashboard he built transformed our workflow. Performance improved by 300%!",
-      rating: 5,
-      image: "https://images.unsplash.com/photo-1494790108755-2616b786d4d9?w=400&auto=format&fit=crop"
-    },
-    {
-      id: 2,
       name: "Michael Chen",
       role: "Product Manager",
       content: "Exceptional attention to detail. The React components are perfectly optimized.",
@@ -29,7 +21,7 @@ export default function Testimonials() {
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop"
     },
     {
-      id: 3,
+      id: 2,
       name: "Alex Rodriguez",
       role: "Startup Founder",
       content: "Delivered ahead of schedule with outstanding quality. Will definitely work again!",
@@ -37,7 +29,7 @@ export default function Testimonials() {
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop"
     },
     {
-      id: 4,
+      id: 3,
       name: "Emma Wilson",
       role: "UX Lead",
       content: "The animations are smooth and the UX is flawless. Exactly what we needed.",
@@ -45,7 +37,7 @@ export default function Testimonials() {
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&auto=format&fit=crop"
     },
     {
-      id: 5,
+      id: 4,
       name: "David Park",
       role: "Engineering Director",
       content: "Scalable architecture with clean code. The team was impressed with the delivery.",
